@@ -1,4 +1,6 @@
 # first-spacer
+## Szymon Stach
+###first try with Vue
 
 ## Project setup
 ```
