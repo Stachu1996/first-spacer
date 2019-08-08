@@ -1,0 +1,31 @@
+<template>
+    <div class="claimWraper">
+        <h1 class="claim">SPACER</h1>
+        <p class='subclaim'>Begin your jurney through our amazing galaxy, and discover places you never even heard of.</p>
+        <p class='subclaim'>Type any thingspace-related to start.</p>
+    </div>    
+</template>
+
+<script>
+export default {
+    name: 'Claim',
+}
+</script>
+
+<style lang='scss' scoped>
+    .claimWrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .claim {
+        font-size: 50px;
+        margin: 0;
+    }
+    .subclaim {
+        margin: 25px 0 0 0;
+        font-size: 13px;
+    }
+</style>
